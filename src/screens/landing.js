@@ -23,7 +23,7 @@ function LandingScreen() {
           {t('landingQuoteSecondLine')}
         </Quote>
 
-        <Author>&mdash; John Dryden</Author>
+        <Author>&mdash;David HKDE</Author>
       </QuoteBox>
 
       <GetStartedButton>{t('getStarted')}</GetStartedButton>
