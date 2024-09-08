@@ -124,7 +124,7 @@ function AuthenticatedApp() {
         <Drawer>
           <Toolbar>
             <Typography variant="h6" color="inherit" noWrap>
-              Habit tracker
+              Habitracker
             </Typography>
           </Toolbar>
           <Divider />
