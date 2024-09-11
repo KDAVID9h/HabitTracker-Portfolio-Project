@@ -7,7 +7,7 @@ import { Link as RouterLink } from 'react-router-dom';
  */
 function Navbar({ children }) {
   return (
-    <AppBar color="inherit" position="absolute">
+    <AppBar color="transparent" position="absolute">
       <Toolbar>{children}</Toolbar>
     </AppBar>
   );

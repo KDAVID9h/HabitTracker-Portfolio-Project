@@ -1,16 +1,30 @@
 import * as React from 'react';
-import { enGB, enUS, es, pl } from 'date-fns/locale';
-import { ReactComponent as PolandFlagSvg } from 'icons/poland.svg';
-import { ReactComponent as SpainFlagSvg } from 'icons/spain.svg';
+import { enGB, enUS, fr } from 'date-fns/locale'; // ewe retiré car non disponible nativement
+import { ReactComponent as FranceFlagSvg } from 'icons/france.svg';
+import { ReactComponent as TogoFlagSvg } from 'icons/togo.svg';
 import { ReactComponent as UnitedKingdomFlagSvg } from 'icons/united-kingdom.svg';
 import { ReactComponent as UnitedStatesFlagSvg } from 'icons/united-states.svg';
 
-// Defaukt locale
-const defaultLocale = enUS;
+// Custom Ewe locale based on enGB
+const ewe = {
+  code: 'ewe',
+  formatDistance: enGB.formatDistance,
+  formatLong: enGB.formatLong,
+  formatRelative: enGB.formatRelative,
+  localize: enGB.localize,
+  match: enGB.match,
+  options: {
+    ...enGB.options,
+    weekStartsOn: 1, // Lundi comme début de la semaine
+    firstWeekContainsDate: 1,
+  },
+};
+
+// Default locale set to enGB (London, GMT)
+const defaultLocale = enGB;
 
 // Available locales
 const locales = [
-  { code: 'es', label: 'Español', icon: <SpainFlagSvg />, import: es },
   {
     code: 'en-US',
     label: 'English US',
@@ -23,7 +37,18 @@ const locales = [
     icon: <UnitedKingdomFlagSvg />,
     import: enGB,
   },
-  { code: 'pl', label: 'Polski', icon: <PolandFlagSvg />, import: pl },
+  {
+    code: 'fr',
+    label: 'Français',
+    icon: <FranceFlagSvg />,
+    import: fr,
+  },
+  {
+    code: 'ewe',
+    label: 'Ewe',
+    icon: <TogoFlagSvg />,
+    import: ewe, // Lier Ewe à enGB car pas de locale ewe dans date-fns
+  },
 ];
 
 export { defaultLocale, locales };

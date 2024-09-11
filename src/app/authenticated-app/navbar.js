@@ -22,7 +22,8 @@ function Navbar({ children }) {
   const { onDrawerToggle } = useDrawer();
 
   return (
-    <AppBar position="fixed">
+    <AppBar color="transparent"
+      position="fixed">
       <Toolbar className={classes.toolbar}>
         <IconButton
           color="inherit"

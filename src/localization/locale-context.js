@@ -15,16 +15,18 @@ function LocaleProvider({ children }) {
    */
   const setLocaleByCode = React.useCallback(
     (newLocaleCode) => {
-    // Find locale by its code
-    const newLocale = locales.find((locale) => locale.code === newLocaleCode);
-
-    if (newLocale) {
-      // Update locale with newLocale's imported object
-      setLocale(newLocale.import);
-    } else {
-      throw new Error(`Unhandled locale code provided: ${newLocaleCode}`);
-    }
-  }, []);
+      // Find locale by its code
+      const newLocale = locales.find((locale) => locale.code === newLocaleCode);
+  
+      if (newLocale) {
+        // Update locale with newLocale's imported object
+        setLocale(newLocale.import);
+      } else {
+        // Utilisez une locale par défaut si la locale fournie est incorrecte
+        console.error(`Unhandled locale code provided: ${newLocaleCode}. Falling back to default locale.`);
+        setLocale(defaultLocale);  // Rétablir la locale par défaut
+      }
+    }, []);  
 
   /**
    * Array of weekdays, starting on the first day of the week

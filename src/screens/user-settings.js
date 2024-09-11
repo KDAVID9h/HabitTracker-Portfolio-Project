@@ -14,18 +14,18 @@ import { useTranslation } from 'translations';
 // Translations
 const translations = {
   account: {
-    pl: 'Konto',
-    es: 'Cuenta',
+    fr: 'Compte',
+    ewe: 'Akᴐnt',
     en: 'Account',
   },
   performance: {
-    pl: 'Wyniki',
-    es: 'Resultados',
+    fr: 'Performance',
+    ewe: 'Dᴐwᴐwᴐ',
     en: 'Performance',
   },
   appearance: {
-    pl: 'Motyw',
-    es: 'Tema',
+    fr: 'Apparance',
+    ewe: 'Dzedzeme',
     en: 'Appearance',
   },
 };

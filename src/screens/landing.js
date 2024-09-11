@@ -49,8 +49,8 @@ export function FullPageImageBackground({ children }) {
         background: `
           linear-gradient(
             to right bottom, 
-            ${alpha(lightRgb, 0.3)}, 
-            ${alpha(darkRgb, 0.8)}), 
+            ${alpha(lightRgb, 0.1)}, 
+            ${alpha(darkRgb, 0.2)}), 
           url(${bg_hkde})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

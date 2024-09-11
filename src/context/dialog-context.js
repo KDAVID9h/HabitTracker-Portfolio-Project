@@ -15,8 +15,8 @@ import { useTranslation } from 'translations';
 // Translations
 const translations = {
   cancelButton: {
-    pl: 'Anuluj',
-    es: 'Cancelar',
+    fr: 'Supprimer',
+    ewe: 'Ɖe ɖa',
     en: 'Cancel',
   },
 };
@@ -59,7 +59,7 @@ const DialogProvider = ({ children }) => {
             description,
             confirmText,
             onConfirm,
-            color = 'primary',
+            //color = 'primary',
           },
           i
         ) => (
@@ -79,7 +79,7 @@ const DialogProvider = ({ children }) => {
             </DialogContent>
 
             <DialogActions>
-              <Button onClick={closeDialog} color={color}>
+              <Button onClick={closeDialog} color="primary">
                 {t('cancelButton')}
               </Button>
               <Button
@@ -88,7 +88,7 @@ const DialogProvider = ({ children }) => {
                   closeDialog();
                   onConfirm();
                 }}
-                color={color}
+                color= "secondary"
                 variant="contained"
                 autoFocus
               >

@@ -35,8 +35,8 @@ export function getColor(colorId) {
 export const colors = {
   red: {
     id: "red",
-    name: "Red",
-    import: red,
+    name: "Yellow",
+    import: yellow,
   },
 
   pink: {
@@ -65,8 +65,8 @@ export const colors = {
 
   blue: {
     id: "blue",
-    name: "Blue",
-    import: blue,
+    name: "Green",
+    import: green,
   },
 
   lightBlue: {
@@ -89,8 +89,8 @@ export const colors = {
 
   green: {
     id: "green",
-    name: "Green",
-    import: green,
+    name: "Blue",
+    import: blue,
   },
 
   lightGreen: {
@@ -107,8 +107,8 @@ export const colors = {
 
   yellow: {
     id: "yellow",
-    name: "Yellow",
-    import: yellow,
+    name: "Red",
+    import: red,
   },
 
   amber: {

@@ -4,438 +4,437 @@ const translations = {
    */
 
   // Email
-  email: {
-    pl: 'Adres e-mail',
-    es: 'Correo electrónico',
-    en: 'Email address',
-  },
-  emailPlaceholder: {
-    pl: 'jan@skrzetuski.pl',
-    es: 'enrique@iglesias.es',
-    en: 'john@doe.com',
-  },
+email: {
+  fr: 'Adresse e-mail',
+  ewe: 'Mɛɖeŋɔmeɖe',
+  en: 'Email address',
+},
+emailPlaceholder: {
+  fr: 'jean@dupont.fr',
+  ewe: 'kokou@togo.ewe',
+  en: 'john@doe.com',
+},
 
-  // Password
-  password: {
-    pl: 'Hasło',
-    es: 'Contraseña',
-    en: 'Password',
-  },
-  passwordConfirmation: {
-    pl: 'Potwierdzenie hasła',
-    es: 'Confirmación de contraseña',
-    en: 'Password confirmation',
-  },
-  forgotPassword: {
-    pl: 'Nie pamiętasz hasła?',
-    es: '¿Has olvidado tu contraseña?',
-    en: 'Forgotten your password?',
-  },
-  resetPassword: {
-    pl: 'Zresetuj hasło',
-    es: 'Restablece tu contraseña',
-    en: 'Reset password',
-  },
-  resetPasswordDescription: {
-    pl: 'Wpisz adres e-mail, aby zresetować hasło.',
-    es:
-      'Introduce tu dirección de correo electrónico para restablecer tu contraseña.',
-    en: 'Enter your email address to reset your password.',
-  },
-  resetPasswordButton: {
-    pl: 'Wyślij',
-    es: 'Enviar',
-    en: 'Send',
-  },
+// Password
+password: {
+  fr: 'Mot de passe',
+  ewe: 'Abitĩ',
+  en: 'Password',
+},
+passwordConfirmation: {
+  fr: 'Confirmation du mot de passe',
+  ewe: 'Abitĩa kɛkɛ',
+  en: 'Password confirmation',
+},
+forgotPassword: {
+  fr: 'Mot de passe oublié?',
+  ewe: 'Wòkãŋ abitĩ?',
+  en: 'Forgotten your password?',
+},
+resetPassword: {
+  fr: 'Réinitialiser le mot de passe',
+  ewe: 'Fiadokui abitĩ',
+  en: 'Reset password',
+},
+resetPasswordDescription: {
+  fr: 'Entrez votre adresse e-mail pour réinitialiser votre mot de passe.',
+  ewe: 'Zɔn mɛɖeŋɔmeɖe na fiadokui wòabitĩ.',
+  en: 'Enter your email address to reset your password.',
+},
+resetPasswordButton: {
+  fr: 'Envoyer',
+  ewe: 'Di',
+  en: 'Send',
+},
 
-  // Sign in
-  signIn: {
-    pl: 'Login',
-    es: 'Inicia sesión',
-    en: 'Sign in',
-  },
-  signInWith: {
-    pl: 'Zaloguj się przez',
-    es: 'Inicia sesión con',
-    en: 'Sign in with',
-  },
-  signInAsGuest: {
-    pl: 'Zaloguj się jako Gość',
-    es: 'Inicia sesión como Invitado',
-    en: 'Sign in as Guest'
-  },
+// Sign in
+signIn: {
+  fr: 'Connexion',
+  ewe: 'Kadodo',
+  en: 'Sign in',
+},
+signInWith: {
+  fr: 'Se connecter avec',
+  ewe: 'Do ka kple',
+  en: 'Sign in with',
+},
+signInAsGuest: {
+  fr: 'Se connecter en tant qu’invité',
+  ewe: 'Da asi le ƒe lĩka',
+  en: 'Sign in as Guest',
+},
 
-  // Sign out
-  signOut: {
-    pl: 'Wyloguj',
-    es: 'Cerrar sesión',
-    en: 'Logout',
-  },
-  signOutQuestion: {
-    pl: 'Wylogować?',
-    es: 'Salir?',
-    en: 'Sign out?',
-  },
-  signOutDescription: {
-    pl: `Po wylogowaniu nie możesz zarządzać swoim profilem i wykonywać innych czynności wymagających bycia zalogowanym.`,
-    es: `Cuando estás desconectado, no puedes administrar tu perfil y realizar otras actividades.`,
-    en: `While signed out you are unable to manage your profile and conduct other activities that require you to be signed in.`,
-  },
-  signOutConfirm: {
-    pl: 'Wyloguj',
-    es: 'Salir',
-    en: 'Sign out',
-  },
+// Sign out
+signOut: {
+  fr: 'Déconnexion',
+  ewe: 'Dɔ asi ɖe',
+  en: 'Logout',
+},
+signOutQuestion: {
+  fr: 'Se déconnecter?',
+  ewe: 'Dɔ asi ɖe?',
+  en: 'Sign out?',
+},
+signOutDescription: {
+  fr: `Pendant la déconnexion, vous ne pourrez pas gérer votre profil ou effectuer d'autres actions nécessitant une connexion.`,
+  ewe: `Ne wòdɔ asi ɖe o, mèyinyia wòkló ɖokui ta ɖoɖo lɛ etɔ na duwo be esusũ wòasi le mɛ.`,
+  en: `While signed out you are unable to manage your profile and conduct other activities that require you to be signed in.`,
+},
+signOutConfirm: {
+  fr: 'Se déconnecter',
+  ewe: 'Dɔ asi ɖe',
+  en: 'Sign out',
+},
 
-  // Sign up
-  signUp: {
-    pl: 'Zarejestruj',
-    es: 'Regístrate',
-    en: 'Sign up',
-  },
-  signUpWith: {
-    pl: 'Zarejestruj się przez',
-    es: 'Registrarse con',
-    en: 'Sign up with',
-  },
-  signUpAsGuest: {
-    pl: 'Zarejestruj się jako Gość',
-    es: 'Registrarse como Invitado',
-    en: 'Sign up as Guest'
-  },
+// Sign up
+signUp: {
+  fr: 'Inscription',
+  ewe: 'Ŋkɔŋlɔɖi',
+  en: 'Sign up',
+},
+signUpWith: {
+  fr: 'S’inscrire avec',
+  ewe: 'Ŋlɔ ŋkɔ kple',
+  en: 'Sign up with',
+},
+signUpAsGuest: {
+  fr: 'S’inscrire en tant qu’invité',
+  ewe: 'Ŋlɔ ŋkɔ abe amedzro ene',
+  en: 'Sign up as Guest',
+},
+
 
   // No account
-  noAccountQuestion: {
-    pl: 'Nie posiadasz konta?',
-    es: 'No tienes una cuenta?',
-    en: `Don't have an account?`,
-  },
+noAccountQuestion: {
+  fr: 'Vous n’avez pas de compte?',
+  ewe: 'Mèŋlɔ ŋkɔ haɖe oa?',
+  en: `Don't have an account?`,
+},
 
-  // Already have account
-  hasAccountQuestion: {
-    pl: 'Posiadasz już konto?',
-    es: 'Ya tienes una cuenta?',
-    en: 'Already have an account?',
-  },
+// Already have account
+hasAccountQuestion: {
+  fr: 'Vous avez déjà un compte?',
+  ewe: 'Wòɖe eɖokui?',
+  en: 'Already have an account?',
+},
 
-  /**
-   * Appearance
-   */
+/**
+ * Appearance
+ */
 
-  // Primary color
-  primaryColor: {
-    pl: 'Kolor podstawowy',
-    es: 'Color primario',
-    en: 'Primary color',
-  },
+// Primary color
+primaryColor: {
+  fr: 'Couleur principale',
+  ewe: 'Esiʋu ɖe',
+  en: 'Primary color',
+},
 
-  // Secondary color
-  secondaryColor: {
-    pl: 'Kolor dodatkowy',
-    es: 'Color secundario',
-    en: 'Secondary color',
-  },
+// Secondary color
+secondaryColor: {
+  fr: 'Couleur secondaire',
+  ewe: 'Esiʋu ƒe',
+  en: 'Secondary color',
+},
 
-  // Dark mode
-  darkMode: {
-    pl: 'Tryb nocny',
-    es: 'Modo oscuro',
-    en: 'Dark mode',
-  },
-  darkModeDescription: {
-    pl: `Zmniejsz ilość niebieskiego światła`,
-    es: `Ahorrar batería y cuidar tus ojos`,
-    en: `Displays mostly dark surfaces`,
-  },
-  darkModeSwitch: {
-    pl: 'Włącz/wyłącz tryb nocny',
-    es: 'Encender/apagar modo oscuro',
-    en: 'Toggle dark mode',
-  },
+// Dark mode
+darkMode: {
+  fr: 'Mode sombre',
+  ewe: 'Dɔ le ɖe',
+  en: 'Dark mode',
+},
+darkModeDescription: {
+  fr: 'Réduit la quantité de lumière bleue',
+  ewe: 'Mɛ aɖeɖeɖe ɖe',
+  en: `Displays mostly dark surfaces`,
+},
+darkModeSwitch: {
+  fr: 'Activer/désactiver le mode sombre',
+  ewe: 'Dɔ le ɖe',
+  en: 'Toggle dark mode',
+},
 
-  // Reset theme
-  resetTheme: {
-    pl: 'Zresetuj motyw',
-    es: 'Reinicializar tema',
-    en: 'Reset theme',
-  },
-  resetThemeDescription: {
-    pl: 'Zmiany zostaną zresetowane',
-    es: 'Los cambios se restablecerán',
-    en: 'Changes will be reset',
-  },
-  resetThemeButton: {
-    pl: 'Zresetuj',
-    es: 'Reinicia',
-    en: 'Reset',
-  },
-  resetThemeNoChanges: {
-    pl: 'Nie wprowadzono żadnych zmian',
-    es: 'No se hicieron cambios',
-    en: 'No changes made',
-  },
+// Reset theme
+resetTheme: {
+  fr: 'Réinitialiser le thème',
+  ewe: 'Fiadokui tema',
+  en: 'Reset theme',
+},
+resetThemeDescription: {
+  fr: 'Les modifications seront réinitialisées',
+  ewe: 'Nɛ ɖokui ɖe aɖeɖe',
+  en: 'Changes will be reset',
+},
+resetThemeButton: {
+  fr: 'Réinitialiser',
+  ewe: 'Fiadokui',
+  en: 'Reset',
+},
+resetThemeNoChanges: {
+  fr: 'Aucune modification apportée',
+  ewe: 'Mɛ ɖokui ɖe o',
+  en: 'No changes made',
+},
 
-  /**
-   * Account
-   */
-  deleteAccount: {
-    pl: 'Usuń konto',
-    es: 'Eliminar cuenta',
-    en: 'Delete account',
-  },
-  deleteAccountQuestion: {
-    pl: 'Usunąć konto?',
-    es: 'Eliminar cuenta?',
-    en: 'Delete account?',
-  },
-  deleteAccountWarning: {
-    pl: `Usuniętego konta nie można odzyskać. Wszystkie dane zostanę usunięte.`,
-    es: `Esta acción eliminará permanentemente todos tus hábitos e datos. Esto no se puede deshacer.`,
-    en: `Deleted accounts can't be recovered. All data associated with your account will be deleted.`,
-  },
-  deleteAccountWarningShort: {
-    pl: `Wszystkie dane zostanę usunięte.`,
-    es: `Esto no se puede deshacer.`,
-    en: `Accounts can't be recovered`,
-  },
-  deleteAccountConfirmation: {
-    pl: 'Usuń',
-    es: 'Eliminar',
-    en: 'Delete',
-  },
-  accountDeleted: {
-    pl: 'Konto usunięte!',
-    es: 'Cuenta eliminida!',
-    en: 'Account deleted!',
-  },
+/**
+ * Account
+ */
+deleteAccount: {
+  fr: 'Supprimer le compte',
+  ewe: 'Kpe eɖokui',
+  en: 'Delete account',
+},
+deleteAccountQuestion: {
+  fr: 'Supprimer le compte?',
+  ewe: 'Kpe eɖokui?',
+  en: 'Delete account?',
+},
+deleteAccountWarning: {
+  fr: `Le compte supprimé ne peut pas être récupéré. Toutes les données seront supprimées.`,
+  ewe: `Eɖokui kpe le aɖeɖe o. Nyateƒe nyui nyɔ ɖe.`,
+  en: `Deleted accounts can't be recovered. All data associated with your account will be deleted.`,
+},
+deleteAccountWarningShort: {
+  fr: `Toutes les données seront supprimées.`,
+  ewe: `Nyateƒe nyui nyɔ ɖe.`,
+  en: `Accounts can't be recovered`,
+},
+deleteAccountConfirmation: {
+  fr: 'Supprimer',
+  ewe: 'Kpe',
+  en: 'Delete',
+},
+accountDeleted: {
+  fr: 'Compte supprimé!',
+  ewe: 'Eɖokui kpe!',
+  en: 'Account deleted!',
+},
 
-  /**
-   * Performance
-   */
-  dailyGoal: {
-    pl: 'Dzienny cel',
-    es: 'Objetivo diario',
-    en: 'Daily goal',
-  },
-  yourPerformance: {
-    pl: 'Twoje wyniki',
-    es: 'Tus resultados',
-    en: 'Your performance',
-  },
-  goal: {
-    pl: 'Cel',
-    es: 'Objetivo',
-    en: 'Goal',
-  },
-  overallPerformance: {
-    pl: 'Wyniki całościowe',
-    es: 'Resultados totales',
-    en: 'Overall All Time Performance',
-  },
+/**
+ * Performance
+ */
+dailyGoal: {
+  fr: 'Objectif quotidien',
+  ewe: 'Dziɖiwo ƒe kpɔe',
+  en: 'Daily goal',
+},
+yourPerformance: {
+  fr: 'Votre performance',
+  ewe: 'Wòɖe kpɔe',
+  en: 'Your performance',
+},
+goal: {
+  fr: 'Objectif',
+  ewe: 'Kpɔe',
+  en: 'Goal',
+},
+overallPerformance: {
+  fr: 'Performance globale',
+  ewe: 'Kpɔe ƒe nɔƒe',
+  en: 'Overall All Time Performance',
+},
 
-  /**
-   * Localization
-   */
-  selectLanguage: {
-    pl: 'Wybierz język',
-    es: 'Elige un idioma',
-    en: 'Select language',
-  },
+/**
+ * Localization
+ */
+selectLanguage: {
+  fr: 'Sélectionner la langue',
+  ewe: 'Tsɔ gbɔgbɔ',
+  en: 'Select language',
+},
 
-  /**
-   * Habits
-   */
-  habit: {
-    pl: 'Nawyk',
-    es: 'Hábito',
-    en: 'Habit',
-  },
+/**
+ * Habits
+ */
+habit: {
+  fr: 'Habitude',
+  ewe: 'Nɔviɖe',
+  en: 'Habit',
+},
 
-  addHabit: {
-    pl: 'Dodaj nawyk',
-    es: 'Agregar hábito',
-    en: 'Add habit',
-  },
-  manageHabits: {
-    pl: 'Edytuj nawyki',
-    es: 'Editar hábitos',
-    en: 'Manage habits',
-  },
+addHabit: {
+  fr: 'Ajouter une habitude',
+  ewe: 'Tsɔ nɔviɖe',
+  en: 'Add habit',
+},
+manageHabits: {
+  fr: 'Gérer les habitudes',
+  ewe: 'Tɔ nɔviɖe',
+  en: 'Manage habits',
+},
 
-  createNewHabit: {
-    pl: 'Dodaj nowy nawyk',
-    es: 'Crea un nuevo hábito',
-    en: 'Create new habit',
-  },
-  createHabit: {
-    pl: 'Dodaj nawyk',
-    es: 'Crear hábito',
-    en: 'Create habit',
-  },
-  habitNameLabel: {
-    pl: 'Nawyk',
-    es: 'Hábito',
-    en: 'Habit name',
-  },
-  habitDescriptionLabel: {
-    pl: 'Opis',
-    es: 'Descripción ',
-    en: 'Description',
-  },
-  habitFrequencyLabel: {
-    pl: 'Częstotliwość',
-    es: 'Frecuencia ',
-    en: 'Frequency',
-  },
-  habitAdded: {
-    pl: 'Nawyk dodany!',
-    es: 'Hábito creado!',
-    en: 'Habit added!',
-  },
+createNewHabit: {
+  fr: 'Créer une nouvelle habitude',
+  ewe: 'Tɔ nɔviɖe ƒe',
+  en: 'Create new habit',
+},
+createHabit: {
+  fr: 'Créer une habitude',
+  ewe: 'Tɔ nɔviɖe',
+  en: 'Create habit',
+},
+habitNameLabel: {
+  fr: 'Nom de l’habitude',
+  ewe: 'Nɔviɖe dzɔ',
+  en: 'Habit name',
+},
+habitDescriptionLabel: {
+  fr: 'Description',
+  ewe: 'Xɔxɔe',
+  en: 'Description',
+},
+habitFrequencyLabel: {
+  fr: 'Fréquence',
+  ewe: 'Fɛkuɛnsi',
+  en: 'Frequency',
+},
+habitAdded: {
+  fr: 'Habitude ajoutée!',
+  ewe: 'Nɔviɖe tsɔ!',
+  en: 'Habit added!',
+},
 
-  editHabit: {
-    pl: 'Edytuj nawyk',
-    es: 'Editar el hábito',
-    en: 'Edit habit',
-  },
-  saveHabit: {
-    pl: 'Zapisz nawyk',
-    es: 'Guardar el hábito',
-    en: 'Save habit',
-  },
-  habitSaved: {
-    pl: 'Nawyk zapisany!',
-    es: 'Hábito guardado!',
-    en: 'Habit saved!',
-  },
+editHabit: {
+  fr: 'Modifier l’habitude',
+  ewe: 'Tɔ nɔviɖe',
+  en: 'Edit habit',
+},
+saveHabit: {
+  fr: 'Enregistrer l’habitude',
+  ewe: 'Dɔ nɔviɖe',
+  en: 'Save habit',
+},
+habitSaved: {
+  fr: 'Habitude enregistrée!',
+  ewe: 'Nɔviɖe dɔ!',
+  en: 'Habit saved!',
+},
 
-  deleteHabitQuestion: {
-    pl: 'Usunąć',
-    es: 'Eliminar',
-    en: 'Delete',
-  },
-  deleteHabitWarning: {
-    pl: `Usunięty nawyk nie może zostać odzyskany. Wszystkie dane zostanę usunięte.`,
-    es: `Esta acción eliminará permanentemente este hábito. Esto no se puede deshacer.`,
-    en: `Deleted habit can't be recovered. All data associated with this habit will be deleted.`,
-  },
-  deleteHabitConfirmation: {
-    pl: 'Usuń',
-    es: 'Eliminar',
-    en: 'Delete',
-  },
-  habitDeleted: {
-    pl: 'Nawyk usunięty!',
-    es: 'Hábito borrado!',
-    en: 'Habit deleted!',
-  },
-  deleteHabit: {
-    pl: 'Usuń nawyk',
-    es: 'Elimina el hábito',
-    en: 'Delete habit',
-  },
+deleteHabitQuestion: {
+  fr: 'Supprimer',
+  ewe: 'Kpe',
+  en: 'Delete',
+},
+deleteHabitWarning: {
+  fr: `L’habitude supprimée ne peut pas être récupérée. Toutes les données seront supprimées.`,
+  ewe: `Nɔviɖe kpe le aɖeɖe o. Nyateƒe nyui nyɔ ɖe.`,
+  en: `Deleted habit can't be recovered. All data associated with this habit will be deleted.`,
+},
+deleteHabitConfirmation: {
+  fr: 'Supprimer',
+  ewe: 'Kpe',
+  en: 'Delete',
+},
+habitDeleted: {
+  fr: 'Habitude supprimée!',
+  ewe: 'Nɔviɖe kpe!',
+  en: 'Habit deleted!',
+},
+deleteHabit: {
+  fr: 'Supprimer l’habitude',
+  ewe: 'Kpe nɔviɖe',
+  en: 'Delete habit',
+},
 
-  habitList: {
-    pl: 'Lista nawyków',
-    es: 'Lista de hábitos',
-    en: 'Habit list',
-  },
-
-  /**
-   * Landing page
-   */
-  landingQuoteFirstLine: {
-    pl: 'Najpierw tworzymy sami swoje nawyki,',
-    es: 'Primero hacemos nuestros hábitos',
-    en: 'We first make our habits,',
-  },
-  landingQuoteSecondLine: {
-    pl: 'potem nawyki tworzą nas.',
-    es: 'y luego nuestros hábitos nos hacen.',
-    en: 'then our habits make us.',
-  },
-  getStarted: {
-    pl: 'Zacznij teraz',
-    es: 'Comienza ahora',
-    en: 'Get started',
-  },
+habitList: {
+  fr: 'Liste des habitudes',
+  ewe: 'Nɔviɖe lɔlɔ̃',
+  en: 'Habit list',
+},
 
   /**
-   * Dates
-   */
-  lastWeek: {
-    pl: 'Zeszły tydzień',
-    es: 'Semana pasada',
-    en: 'Last week',
-  },
-  thisWeek: {
-    pl: 'Obecny tydzień',
-    es: 'Esta semana',
-    en: 'This week',
-  },
-  today: {
-    pl: 'Dzisiaj',
-    es: 'Hoy',
-    en: 'Today',
-  },
+ * Landing page
+ */
+landingQuoteFirstLine: {
+  fr: 'Nous créons d’abord nos habitudes,',
+  ewe: 'Míewɔa míaƒe numamewo gbã,',
+  en: 'We first make our habits,',
+},
+landingQuoteSecondLine: {
+  fr: 'puis nos habitudes nous façonnent.',
+  ewe: 'emegbe míaƒe numamewoe trɔa asi le mía ŋu.',
+  en: 'then our habits make us.',
+},
+getStarted: {
+  fr: 'Commencez maintenant',
+  ewe: 'Dze egɔme fifia',
+  en: 'Get started',
+},
 
-  /**
-   * Other
-   */
-  settings: {
-    pl: 'Ustawienia',
-    es: 'Configuración',
-    en: 'Settings',
-  },
-  delete: {
-    pl: 'Usuń',
-    es: 'Eliminar',
-    en: 'Delete',
-  },
-  or: {
-    pl: 'Lub',
-    es: 'O',
-    en: 'Or',
-  },
+/**
+ * Dates
+ */
+lastWeek: {
+  fr: 'Semaine dernière',
+  ewe: 'Dziɖi aɖe',
+  en: 'Last week',
+},
+thisWeek: {
+  fr: 'Cette semaine',
+  ewe: 'Dziɖi aɖe yi',
+  en: 'This week',
+},
+today: {
+  fr: 'Aujourd’hui',
+  ewe: 'Eʋeɖi',
+  en: 'Today',
+},
 
-  // Not found
-  notFoundMessage: {
-    pl: 'Nic tutaj nie ma!',
-    es: 'Parece que estás perdido!',
-    en: 'Are you lost?',
-  },
-  goBack: {
-    pl: 'Powrót',
-    es: 'Volver',
-    en: 'Go back',
-  },
+/**
+ * Other
+ */
+settings: {
+  fr: 'Paramètres',
+  ewe: 'Nɔviɖe',
+  en: 'Settings',
+},
+delete: {
+  fr: 'Supprimer',
+  ewe: 'Kpe',
+  en: 'Delete',
+},
+or: {
+  fr: 'Ou',
+  ewe: 'Ana',
+  en: 'Or',
+},
 
-  // Habit not found
-  habitNotFound: {
-    pl: 'Hmmm, ten nawyk nie istnieje...',
-    es: 'Este hábito no existe!',
-    en: `This habit doesn't exist!`,
-  },
+// Not found
+notFoundMessage: {
+  fr: 'Il n’y a rien ici!',
+  ewe: 'Eyi ɖe nɔ nu!',
+  en: 'Are you lost?',
+},
+goBack: {
+  fr: 'Retourner',
+  ewe: 'Fã le',
+  en: 'Go back',
+},
 
-  // No habits
-  noHabitsTitle: {
-    pl: 'Brak nawyków',
-    es: 'No hay hábitos',
-    en: 'There are no habits',
-  },
-  noHabitsDescription: {
-    pl:
-      'Wygląda na to, że nie masz jeszcze żadnych nawyków, może jakiś dodasz?',
-    es: 'Parece que aún no tienes ningún hábito, ¿por qué no agregas uno?',
-    en: `It looks like you don't have any habits yet, why don't you add one?`,
-  },
+// Habit not found
+habitNotFound: {
+  fr: 'Hmm, cette habitude n’existe pas...',
+  ewe: 'Hmm, nɔviɖe kple o...',
+  en: `This habit doesn't exist!`,
+},
 
-  // Github repo
-  githubRepo: {
-    pl: 'Repozytorium GitHub',
-    es: 'Repositorio de GitHub',
-    en: 'GitHub repository',
-  },
+// No habits
+noHabitsTitle: {
+  fr: 'Aucune habitude',
+  ewe: 'Mɛ nɔviɖe',
+  en: 'There are no habits',
+},
+noHabitsDescription: {
+  fr: 'Il semble que vous n’avez pas encore d’habitudes, pourquoi ne pas en ajouter une?',
+  ewe: 'Mɛ nyateƒe wòɖe nɔviɖe kple, ɖe ŋkɔ kɔ si wòtsi?',
+  en: `It looks like you don't have any habits yet, why don't you add one?`,
+},
+
+// Github repo
+githubRepo: {
+  fr: 'Dépôt GitHub',
+  ewe: 'GitHub ƒe nudzraɖoƒe',
+  en: 'GitHub repository',
+},
 };
 
 export { translations };
