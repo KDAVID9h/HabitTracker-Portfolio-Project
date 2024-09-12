@@ -39,8 +39,8 @@ function BackgroundImage({ children }) {
         background: `
           linear-gradient(
             to right bottom, 
-            ${alpha(lightRgb, 0.1)}, 
-            ${alpha(darkRgb, 0.1)}), 
+            ${alpha(lightRgb, 0.15)}, 
+            ${alpha(darkRgb, 0)}), 
           url(${bg_hkde})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
