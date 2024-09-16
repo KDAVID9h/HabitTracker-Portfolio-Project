@@ -345,14 +345,14 @@ habitList: {
  * Landing page
  */
 landingQuoteFirstLine: {
-  fr: 'Nous créons d’abord nos habitudes,',
-  ewe: 'Míewɔa míaƒe numamewo gbã,',
-  en: 'We first make our habits,',
+  fr: 'Nous façonnons d’abord nos habitudes puis,',
+  ewe: 'Míetrɔa asi le míaƒe numamewo ŋu gbã eye emegbe,',
+  en: 'We shape our habits first and then,',
 },
 landingQuoteSecondLine: {
-  fr: 'puis nos habitudes nous façonnent.',
-  ewe: 'emegbe míaƒe numamewoe trɔa asi le mía ŋu.',
-  en: 'then our habits make us.',
+  fr: 'ce sont elles qui façonnent notre avenir.',
+  ewe: 'woawoe trɔa asi le míaƒe etsɔme ŋu.',
+  en: 'our habits shape the path to our success.',
 },
 getStarted: {
   fr: 'Commencez maintenant',
